@@ -1,0 +1,32 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:layout_gravity="bottom"
+    android:layout_marginBottom="25dp"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/masukBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="20dp"
+        android:text="Masuk"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@drawable/left_button_background" />
+
+    <Button
+        android:id="@+id/daftarBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginEnd="20dp"
+        android:text="Daftar"
+        android:textStyle="bold"
+
+        android:background="@drawable/right_button_background" />
+
+</LinearLayout>
